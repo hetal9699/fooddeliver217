@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <link rel="stylesheet" href="css/fooddelivery.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="maxwidth mx-auto  bg-white p-4">
+            <div class="row justify-content-between p-2 ">
+                <div class=" col w-100 dropdown me-5 pe-5 ">
+                    <i class="fa-solid fa-paper-plane color_tomato"></i>
+                    <button class="btn btn-light text-secondary  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Search for a location
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Sayajigunj</a></li>
+                        <li><a class="dropdown-item" href="#">Akota </a></li>
+                        <li><a class="dropdown-item" href="#">Subhanpura</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-2 pb-4 ">
+                    <div class="iconwidth bg-secondary rounded-circle text-center   ">
+                        <i class="fa-solid fa-user text-white"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row  ps-2">
+                <form class="container-fluid">
+                    <div class="input-group w-100  bg-light rounded-2">
+                        <input type="text" class="form-control border-0"
+                            placeholder="Search for restaurant,items and more" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        <span class="input-group-text border-0 bg-white" id="basic-addon1"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+
+                    </div>
+                </form>
+
+            </div>
+            <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-6 d-block w-75 mx-auto rounded-4 offerbgimage p-3   ">
+                            <span class="text-white m-0 p-0 fs-6 fw-bolder"> Food</span>
+                            <h3 class="fs-2 text-white pt-3">50 % OFF & get free delivery</h3>
+                            <p class=" fs-6 text-warning m-0 p-0 pe-5 me-5">Use coupon and get </p>
+                            <span class=" text-info fs-4"> 50% off </span>
+                            <div>
+                                <span class=" bg-light px-2 rounded-pill fs-6 fw-bolder  text-black mt-5 my-5"><i
+                                        class="fa-solid fa-arrow-right-long"></i></spa>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-6 d-block w-75 mx-auto rounded-4 buy1get1bgimg p-3   ">
+                            <h3 class="fs-2 text-white pt-3 m-0">BUY 1 GET</h3>
+                            <h3 class="fs-2 text-white pt-3 m-0"> 1 FREE</h3>
+
+                            <p class=" fs-6 text-warning fw-bold  m-0"> Multipy your feast from </p>
+                            <span class="color_tomato fs-4 "> Barbeque Nation </span>
+                            <div class="mt-3">
+                                <span class=" bg-light px-2 rounded-pill fs-6 fw-bolder  text-black mt-5 my-5"><i
+                                        class="fa-solid fa-arrow-right-long"></i></spa>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-6 d-block w-75 mx-auto rounded-4  frankiebg p-3   ">
+                            <h3 class="fs-2 text-warning  m-0">GET</h3>
+                            <h3 class="fs-2 text-warning  m-0"> 60% OFF</h3>
+
+                            <p class=" fs-6 text-danger m-0"> Sizzling treats from </p>
+                            <p class=" text-black fs-6 m-0 fw-bold "> Signature Wraps </p>
+                            <p class=" text-black fs-6 m-0 fw-bold ">By fassos </p>
+
+                            <div class="mt-3">
+                                <span class=" bg-warning px-2 rounded-pill fs-6 fw-bolder  text-black mt-5 my-5"><i
+                                        class="fa-solid fa-arrow-right-long"></i></spa>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="row">
+                <h3 class="fs-5 fw-bold">Get quickly</h3>
+                <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block  w-100">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 frankiebg pt-5 pb-4   ">
+                                            <div class="float-start mt-3">
+                                                <h3 class="fs-5  text-black  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">Frankie</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.3  33 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 gujsnacksbg pt-5 pb-4   ">
+                                            <div class="float-start mt-3 ">
+                                                <h3 class="fs-5  text-white  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">jagdish</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.9  45 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 ramsweet pt-5 pb-4   ">
+                                            <div class="float-start mt-3 ">
+                                                <h3 class="fs-5  text-black  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">Gopal sweets</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.2  15 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                           
+    
+    
+    
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block  w-100">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 burgerking pt-5 pb-4   ">
+                                            <div class="float-start mt-3">
+                                                <h3 class="fs-5  text-black  ">30 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">Burger king</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.0  10 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 gujsnacksbg pt-5 pb-4   ">
+                                            <div class="float-start mt-3 ">
+                                                <h3 class="fs-5  text-white  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">jagdish</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.9  45 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 ramsweet pt-5 pb-4   ">
+                                            <div class="float-start mt-3 ">
+                                                <h3 class="fs-5  text-black  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">Gopal sweets</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.2  15 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block  w-100">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 burgerking pt-5 pb-4   ">
+                                            <div class="float-start mt-3">
+                                                <h3 class="fs-5  text-black  ">30 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">Burger king</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.0  10 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 gujsnacksbg pt-5 pb-4   ">
+                                            <div class="float-start mt-3 ">
+                                                <h3 class="fs-5  text-white  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">jagdish</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.9  45 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gquick  mx-auto rounded-3 ramsweet pt-5 pb-4   ">
+                                            <div class="float-start mt-3 ">
+                                                <h3 class="fs-5  text-black  ">50 % OFF</h3>
+            
+                                            </div>
+                                            
+                                           
+                
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="fs-6">Gopal sweets</h4>
+                                            <div class="col">
+                                                <span class="bg-success float-start text-center rounded-circle me-1 px-1  ">
+                                                    <i class="fa-solid fa-star starfont text-white"></i>
+                                                </span>
+                                                <p class="float-start ratingfont">4.2  15 mins</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
